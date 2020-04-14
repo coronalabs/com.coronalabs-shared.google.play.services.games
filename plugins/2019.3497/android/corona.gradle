@@ -1,0 +1,9 @@
+
+// "metadata", "dependencies", "jars", "native", "resources", "assets"
+ext["excludeCoronaPlugin"] = true
+ext["includeCoronaPlugin"] = ["dependencies"]
+
+dependencies {
+	implementation 'com.google.android.gms:play-services-games:' + '17.+'
+	implementation 'com.google.android.gms:play-services-auth:' + '16.+'	
+}
